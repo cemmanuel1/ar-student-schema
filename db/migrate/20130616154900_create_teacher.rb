@@ -4,7 +4,7 @@ require_relative '../config'
 
 class CreateTeacher < ActiveRecord::Migration
   def change
-    create_table :teacher do |t|
+    create_table :teachers do |t|
       t.string   :name
       t.string   :email
       t.string   :address
